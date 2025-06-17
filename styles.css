@@ -1,16 +1,16 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   width: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    #f0f4f8,
-    #f0f4f8 10px,
-    #d6e0f0 10px,
-    #d6e0f0 20px
-  );
+  background: #ffffff;
   color: #2c3a52;
   padding: 20px;
   line-height: 1.6;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'MyCustomFont', sans-serif;
 }
 
 h1 {
